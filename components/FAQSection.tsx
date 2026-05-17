@@ -26,6 +26,18 @@ const faqs = [
     q: "Quali fornitori di energia trattate?",
     a: "Lavoriamo con oltre 50 fornitori certificati sul mercato italiano: Enel, Edison, Eni Plenitude, A2A, Axpo, Illumia, Sorgenia, Hera e molti altri. La nostra indipendenza ci consente di scegliere sempre il meglio per te.",
   },
+  {
+    q: "Sono ancora sul Servizio a Tutele Graduali (STG), devo preoccuparmi?",
+    a: "Sì. Il Servizio a Tutele Graduali è il regime transitorio ARERA per chi non ha ancora scelto un fornitore nel mercato libero — le tariffe STG sono tipicamente superiori alle migliori offerte disponibili. Dal 1° aprile 2027 il contratto passerà automaticamente a un'offerta imposta dal distributore, senza possibilità di negoziazione. Enlil analizza gratuitamente la tua situazione attuale e ti porta sulla migliore offerta di mercato libero prima della scadenza, risparmiando da subito.",
+  },
+  {
+    q: "Conviene una tariffa fissa o indicizzata per la luce aziendale?",
+    a: "Dipende dal tuo profilo di consumo e dall'andamento del PUN (Prezzo Unico Nazionale). La tariffa fissa blocca il costo dell'energia per tutta la durata del contratto — ideale per aziende con budget rigidi o consumi elevati. La tariffa indicizzata (PUN + spread fisso) può essere più conveniente in fasi di mercato favorevoli, ma espone alle oscillazioni. Enlil monitora il contesto di mercato e ti consiglia la soluzione più adatta senza conflitti di interesse con nessun fornitore.",
+  },
+  {
+    q: "Posso unire luce e gas in un'unica offerta dual fuel?",
+    a: "Sì. Le offerte dual fuel consentono di gestire energia elettrica e gas naturale con un unico fornitore e un'unica fattura, semplificando la contabilità e spesso ottenendo condizioni di prezzo migliori per la combinazione. Enlil confronta sistematicamente le offerte dual fuel con quelle separate per trovare la combinazione più vantaggiosa per i consumi specifici della tua azienda.",
+  },
 ];
 
 export default function FAQSection() {

@@ -162,6 +162,30 @@ const jsonLdFAQ = {
         text: "Enlil gestisce l'intera pratica di migrazione: raccoglie i dati delle forniture attuali, negozia le nuove condizioni, invia le pratiche di voltura o subentro e monitora la migrazione fino all'attivazione. Il servizio non viene mai interrotto durante il passaggio.",
       },
     },
+    {
+      "@type": "Question",
+      name: "Sono ancora sul Servizio a Tutele Graduali (STG), devo preoccuparmi?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sì. Il Servizio a Tutele Graduali è il regime transitorio ARERA per chi non ha ancora scelto un fornitore nel mercato libero — le tariffe STG sono tipicamente superiori alle migliori offerte disponibili. Dal 1° aprile 2027 il contratto passerà automaticamente a un'offerta imposta dal distributore, senza possibilità di negoziazione. Enlil analizza gratuitamente la situazione attuale e porta l'azienda sulla migliore offerta di mercato libero prima della scadenza.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Conviene una tariffa fissa o indicizzata per la luce aziendale?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Dipende dal profilo di consumo e dall'andamento del PUN (Prezzo Unico Nazionale). La tariffa fissa blocca il costo dell'energia per tutta la durata del contratto — ideale per aziende con budget rigidi o consumi elevati. La tariffa indicizzata (PUN + spread fisso) può essere più conveniente in fasi di mercato favorevoli, ma espone alle oscillazioni. Enlil consiglia la soluzione più adatta senza conflitti di interesse con nessun fornitore.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Posso unire luce e gas in un'unica offerta dual fuel?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sì. Le offerte dual fuel consentono di gestire energia elettrica e gas naturale con un unico fornitore e un'unica fattura, semplificando la contabilità e spesso ottenendo condizioni di prezzo migliori. Enlil confronta sistematicamente le offerte dual fuel con quelle separate per trovare la combinazione più vantaggiosa per i consumi specifici dell'azienda.",
+      },
+    },
   ],
 };
 
