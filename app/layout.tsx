@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Enlil — Broker Luce, Gas, Internet e SIM per Aziende | Risparmia Fino al 30%",
+  title: "Enlil — Broker Luce, Gas e SIM per Aziende e Partita IVA | -30% nel 2026",
   description:
-    "Enlil è il broker indipendente di utenze aziendali in Italia. Gestiamo luce, gas, fibra internet e SIM per PMI e imprenditori. Analisi gratuita in 48h. Risparmio medio €8.500/anno. Nessun costo, nessun vincolo.",
+    "Broker di luce, gas, internet e SIM per PMI e Partita IVA. Mercato libero 2026: risparmio medio €8.500/anno. Analisi gratuita in 48h. Nessun costo, nessun vincolo.",
   keywords: [
     "broker luce gas imprese Italia",
     "risparmio bollette aziende",
@@ -32,6 +32,13 @@ export const metadata: Metadata = {
     "broker energetico aziendale",
     "infrastruttura digitale aziendale",
     "risparmio energia imprese Italia",
+    "offerte luce gas partita IVA 2026",
+    "mercato libero energia aziendale 2026",
+    "prezzo fisso luce gas PMI 2026",
+    "cambio fornitore luce gas aziende 2026",
+    "tutele graduali STG scadenza 2027",
+    "ottimizzazione costi energetici aziendali",
+    "confronto fornitori energia business Italia",
   ],
   authors: [{ name: "Enlil" }],
   metadataBase: new URL("https://enlil.app"),
@@ -41,9 +48,9 @@ export const metadata: Metadata = {
     locale: "it_IT",
     url: "https://enlil.app",
     siteName: "Enlil",
-    title: "Enlil — Broker Luce, Gas, Internet e SIM per Aziende Italiane",
+    title: "Enlil — Broker Luce, Gas, Internet e SIM | Risparmia -30% nel 2026",
     description:
-      "Broker indipendente di utenze e infrastruttura digitale per PMI e imprenditori italiani. Risparmio medio €8.500/anno su luce, gas, internet e SIM. Consulenza gratuita.",
+      "Broker indipendente per PMI e Partita IVA italiane. Mercato libero 2026: risparmio medio €8.500/anno su luce, gas, internet e SIM. Analisi gratuita in 48h, nessun vincolo.",
     images: [
       {
         url: "/og-image.png",
@@ -55,9 +62,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Enlil — Broker Utenze Aziendali | Risparmia Fino al 30%",
+    title: "Enlil | Broker Utenze Aziendali 2026 | Risparmia -30%",
     description:
-      "Luce, gas, internet e SIM per aziende italiane. Analisi gratuita in 48h. Risparmio medio €8.500/anno.",
+      "Broker luce, gas, internet e SIM per PMI e Partita IVA. Mercato libero 2026: risparmio medio €8.500/anno. Analisi gratuita in 48h.",
   },
   robots: {
     index: true,
