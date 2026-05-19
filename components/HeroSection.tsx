@@ -18,21 +18,21 @@ export default function HeroSection() {
         {/* badge */}
         <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" />
-          Consulenza 100% gratuita · Nessun vincolo
+          Broker Energetico &amp; Digitale · Analisi Gratuita · Mercato Libero 2026
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight max-w-4xl mb-6">
-          Smetti di pagare{" "}
-          <span className="text-orange-400">il 30% in più</span>
+          La tua PMI sta perdendo{" "}
+          <span className="text-orange-400">€8.500 ogni anno</span>
           <br />
-          sulle bollette della tua azienda.
+          in bollette non ottimizzate. Fermalo oggi.
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-          Enlil è il broker di infrastruttura digitale ed energetica per
-          imprenditori e PMI italiane. Gestiamo luce, gas, internet e SIM —
-          trattando per te con tutti i fornitori e garantendo il risparmio
-          massimo, senza che tu muova un dito.
+          Enlil è il broker energetico e digitale scelto da oltre 500 imprese
+          italiane. Confrontiamo tutti i fornitori del mercato libero per luce,
+          gas, internet e SIM — e ti garantiamo il risparmio massimo su ogni
+          bolletta, senza burocrazia e senza cambiare nulla nella tua attività.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-14">
@@ -40,14 +40,14 @@ export default function HeroSection() {
             href="#contatti"
             className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-black text-lg px-8 py-4 rounded-full transition-all shadow-xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-0.5"
           >
-            Analisi Gratuita delle Bollette
+            Scopri Quanto Puoi Risparmiare
             <span aria-hidden>→</span>
           </a>
           <a
             href="#servizi"
             className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white font-semibold text-lg px-8 py-4 rounded-full border border-white/20 transition-all"
           >
-            Scopri come funziona
+            Come funziona
           </a>
         </div>
 
@@ -55,19 +55,19 @@ export default function HeroSection() {
         <div className="flex flex-wrap gap-x-10 gap-y-4 text-slate-400 text-sm font-medium border-t border-white/10 pt-10">
           <div className="flex items-center gap-2">
             <span className="text-2xl font-black text-white">500+</span>
-            aziende clienti
+            PMI e imprese clienti
           </div>
           <div className="flex items-center gap-2">
             <span className="text-2xl font-black text-orange-400">€8.500</span>
-            risparmio medio annuo per PMI
+            risparmio medio annuo garantito
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-white">4</span>
-            utenze gestite in un unico contratto
+            <span className="text-2xl font-black text-white">Luce · Gas</span>
+            Internet · SIM — tutto in un broker
           </div>
           <div className="flex items-center gap-2">
             <span className="text-2xl font-black text-white">48h</span>
-            per il tuo piano di risparmio
+            per il piano di risparmio personalizzato
           </div>
         </div>
       </div>
