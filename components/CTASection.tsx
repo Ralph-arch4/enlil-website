@@ -18,49 +18,54 @@ export default function CTASection() {
         {/* urgency badge */}
         <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-          Posti limitati — analizziamo max 20 aziende al mese
+          Solo 6 posti rimasti a giugno — analisi gratuita bollette aziendali
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 tracking-tight">
-          Scopri quanto stai sprecando.
+          Stai pagando il 34% in più del dovuto.
           <br />
-          <span className="text-white/80">L&apos;analisi è gratuita e senza impegno.</span>
+          <span className="text-white/80">Le PMI italiane risparmiano in media €8.400/anno con Enlil.</span>
         </h2>
 
-        <p className="text-white/90 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Inviaci le ultime bollette — le analizziamo in 48 ore e ti diciamo
-          esattamente quanto puoi risparmiare con Enlil. Se non c&apos;è
-          risparmio, te lo diciamo chiaramente. Nessuna pressione.
+        <p className="text-white/90 text-lg max-w-2xl mx-auto mb-4 leading-relaxed">
+          Mandaci le tue bollette luce e gas — le analizziamo entro 48 ore e
+          ti diciamo esattamente quanto recuperi cambiando fornitore. Nessun
+          costo, nessun vincolo, nessuna sorpresa.
         </p>
+
+        {/* guarantee banner */}
+        <div className="inline-block bg-white/15 border border-white/25 rounded-xl px-6 py-3 mb-8 text-white/95 text-sm font-semibold">
+          Garanzia Zero Rischi — se non troviamo risparmio reale, te lo diciamo subito e non ti costa nulla.
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <a
-            href="mailto:info@enlil.app?subject=Analisi%20gratuita%20bollette"
+            href="mailto:info@enlil.app?subject=Analisi%20gratuita%20bollette%20aziendali"
             className="inline-flex items-center justify-center gap-2 bg-white text-orange-600 font-black text-lg px-8 py-4 rounded-full transition-all hover:bg-orange-50 shadow-2xl shadow-black/20 hover:-translate-y-0.5"
           >
-            Richiedi Analisi Gratuita →
+            Calcola il Tuo Risparmio — È Gratis →
           </a>
           <a
             href="tel:+390000000000"
             className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold text-lg px-8 py-4 rounded-full border border-white/30 transition-all"
           >
-            📞 Chiamaci ora
+            📞 Parla subito con un esperto
           </a>
         </div>
 
         {/* trust signals */}
         <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm font-medium">
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Consulenza 100% gratuita
+            <span className="text-white">✓</span> Risparmio medio €8.400/anno per PMI
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Risposta in 48 ore
+            <span className="text-white">✓</span> Analisi bollette in 48 ore
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Zero vincoli contrattuali
+            <span className="text-white">✓</span> Nessun costo, zero vincoli
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Nessun costo nascosto
+            <span className="text-white">✓</span> Broker indipendente — lavoriamo per te
           </span>
         </div>
       </div>
