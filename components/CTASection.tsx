@@ -18,13 +18,13 @@ export default function CTASection() {
         {/* urgency badge */}
         <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-          Solo 6 posti rimasti a giugno — analisi gratuita bollette aziendali
+          Luce +8,1% nel Q2 2026 · Ultimi posti disponibili a giugno
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 tracking-tight">
           Stai pagando il 34% in più del dovuto.
           <br />
-          <span className="text-white/80">Le PMI italiane risparmiano in media €8.400/anno con Enlil.</span>
+          <span className="text-white/80">Le PMI italiane risparmiano in media €8.500/anno con Enlil.</span>
         </h2>
 
         <p className="text-white/90 text-lg max-w-2xl mx-auto mb-4 leading-relaxed">
@@ -56,7 +56,7 @@ export default function CTASection() {
         {/* trust signals */}
         <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm font-medium">
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Risparmio medio €8.400/anno per PMI
+            <span className="text-white">✓</span> Risparmio medio €8.500/anno per PMI
           </span>
           <span className="flex items-center gap-1.5">
             <span className="text-white">✓</span> Analisi bollette in 48 ore

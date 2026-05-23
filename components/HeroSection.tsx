@@ -54,20 +54,20 @@ export default function HeroSection() {
         {/* social proof strip */}
         <div className="flex flex-wrap gap-x-10 gap-y-4 text-slate-400 text-sm font-medium border-t border-white/10 pt-10">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-white">500+</span>
+            <span className="text-2xl font-black text-white">600+</span>
             PMI e imprese clienti
           </div>
           <div className="flex items-center gap-2">
             <span className="text-2xl font-black text-orange-400">€8.500</span>
-            risparmio medio annuo garantito
+            risparmio medio annuo certificato
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-white">Luce · Gas</span>
-            Internet · SIM — tutto in un broker
+            <span className="text-2xl font-black text-white">IVA 10%</span>
+            agevolata su luce e gas business
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-white">48h</span>
-            per il piano di risparmio personalizzato
+            <span className="text-2xl font-black text-white">24h</span>
+            cambio fornitore luce — zero downtime
           </div>
         </div>
       </div>

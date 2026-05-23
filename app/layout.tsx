@@ -171,10 +171,10 @@ const jsonLdFAQ = {
     },
     {
       "@type": "Question",
-      name: "Sono ancora sul Servizio a Tutele Graduali (STG), devo preoccuparmi?",
+      name: "Il Servizio a Tutele Graduali (STG) è già scaduto per la mia PMI?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sì. Il Servizio a Tutele Graduali è il regime transitorio ARERA per chi non ha ancora scelto un fornitore nel mercato libero — le tariffe STG sono tipicamente superiori alle migliori offerte disponibili. Dal 1° aprile 2027 il contratto passerà automaticamente a un'offerta imposta dal distributore, senza possibilità di negoziazione. Enlil analizza gratuitamente la situazione attuale e porta l'azienda sulla migliore offerta di mercato libero prima della scadenza.",
+        text: "Per micro e piccole imprese, il Servizio a Tutele Graduali è scaduto ad aprile 2026: da quel momento il contratto è stato assegnato automaticamente a un fornitore imposto dal distributore locale, spesso a condizioni non ottimali. Se la tua azienda era in STG, molto probabilmente sei già passato a un'offerta di mercato libero che non hai scelto tu. Enlil analizza gratuitamente la situazione attuale e — se il contratto imposto non è il migliore — lo sostituisce con l'offerta più conveniente tra oltre 50 fornitori. Il cambio si completa in 24h senza interruzioni.",
       },
     },
     {

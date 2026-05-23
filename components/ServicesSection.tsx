@@ -3,8 +3,8 @@ const services = [
     icon: "⚡",
     title: "Energia Elettrica",
     subtitle: "Luce Business",
-    desc: "Analizziamo i tuoi consumi e negoziamo con oltre 50 fornitori il contratto luce più conveniente per la tua partita IVA. Risparmio medio 25% rispetto al mercato tutelato.",
-    tags: ["Mercato libero", "Tariffa fissa o indicizzata", "Monitoraggio consumi"],
+    desc: "Analizziamo i tuoi consumi e negoziamo con oltre 50 fornitori il contratto luce più conveniente per la tua partita IVA. Risparmio medio 25%, cambio fornitore completato in 24h, IVA agevolata al 10%.",
+    tags: ["Cambio fornitore in 24h", "IVA 10% business", "Tariffa fissa o indicizzata"],
   },
   {
     icon: "🔥",
