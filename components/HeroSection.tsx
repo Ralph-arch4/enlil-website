@@ -29,7 +29,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-          Enlil è il broker energetico e digitale scelto da oltre 500 imprese
+          Enlil è il broker energetico e digitale scelto da oltre 600 imprese
           italiane. Confrontiamo tutti i fornitori del mercato libero per luce,
           gas, internet e SIM — e ti garantiamo il risparmio massimo su ogni
           bolletta, senza burocrazia e senza cambiare nulla nella tua attività.

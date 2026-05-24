@@ -36,9 +36,15 @@ export const metadata: Metadata = {
     "mercato libero energia aziendale 2026",
     "prezzo fisso luce gas PMI 2026",
     "cambio fornitore luce gas aziende 2026",
-    "tutele graduali STG scadenza 2027",
+    "tutele graduali STG scaduto 2026",
+    "cambio fornitore dopo STG scaduto",
+    "decreto bollette 2026 PMI imprese",
+    "dual fuel luce gas aziendale PMI",
+    "fibra FTTH business aziendale PMI",
     "ottimizzazione costi energetici aziendali",
     "confronto fornitori energia business Italia",
+    "migliore offerta luce gas imprese 2026",
+    "risparmio energia PMI 5-50 dipendenti",
   ],
   authors: [{ name: "Enlil" }],
   metadataBase: new URL("https://enlil.app"),
@@ -196,6 +202,26 @@ const jsonLdFAQ = {
   ],
 };
 
+const jsonLdWebPage = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Enlil — Broker Luce, Gas e SIM per Aziende e Partita IVA | -30% nel 2026",
+  url: "https://enlil.app",
+  description:
+    "Broker indipendente di utenze aziendali per PMI italiane. Risparmio medio €8.500/anno su luce, gas, internet e SIM. Analisi gratuita in 48h, nessun vincolo.",
+  inLanguage: "it-IT",
+  isPartOf: { "@type": "WebSite", name: "Enlil", url: "https://enlil.app" },
+  about: { "@type": "Organization", name: "Enlil", url: "https://enlil.app" },
+  primaryImageOfPage: { "@type": "ImageObject", url: "https://enlil.app/og-image.png" },
+  dateModified: "2026-05-24",
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://enlil.app" },
+    ],
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -213,6 +239,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFAQ) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebPage) }}
         />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
