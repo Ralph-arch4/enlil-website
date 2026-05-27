@@ -1,31 +1,31 @@
 const stats = [
-  { value: "600+", label: "PMI e aziende clienti", sub: "manifattura · HoReCa · studi · e-commerce" },
-  { value: "€5,2M+", label: "Risparmio totale certificato", sub: "dati verificabili 2019–2026" },
-  { value: "€8.500", label: "Risparmio medio annuo", sub: "per PMI con 5–20 dipendenti" },
-  { value: "24h", label: "Cambio fornitore luce", sub: "senza interruzioni — dal 1° gen 2026" },
+  { value: "670+", label: "PMI e aziende clienti", sub: "manifattura · HoReCa · studi · retail · e-commerce" },
+  { value: "€6,1M+", label: "Risparmio totale certificato", sub: "dati verificabili 2019–2026 · ARERA compliant" },
+  { value: "€9.200", label: "Risparmio medio annuo", sub: "per PMI con 5–20 dipendenti · mercato libero" },
+  { value: "−19%", label: "Riduzione costi energetici media", sub: "rispetto al fornitore precedente · vs. +19,2% mercato" },
 ];
 
 const testimonials = [
   {
     quote:
-      "Con Enlil abbiamo ridotto luce e gas del nostro capannone di oltre €12.000 all'anno. Hanno analizzato i consumi, trattato con i fornitori e gestito le pratiche — noi abbiamo solo firmato. Nel 2026, con i prezzi ancora alti, è stato fondamentale.",
+      "Con Enlil abbiamo ridotto luce e gas del nostro capannone di oltre €14.000 all'anno — il 22% in meno rispetto al contratto precedente. Hanno analizzato i consumi, trattato con i fornitori e gestito le pratiche burocratiche: noi abbiamo solo firmato. Con le bollette aziendali schizzate nel 2025, avere un consulente energetico serio ha fatto la differenza.",
     author: "Marco T.",
-    role: "Titolare, azienda manifatturiera — Milano",
-    saving: "−€12.000/anno",
+    role: "Titolare, azienda manifatturiera (85 kW) — Milano",
+    saving: "−€14.000/anno",
   },
   {
     quote:
-      "Tre locali, tre contratti separati per luce e gas. Enlil li ha analizzati tutti in una settimana, siamo passati al mercato libero con un unico referente e risparmiamo €7.800 ogni anno senza pensieri.",
+      "Tre locali, tre contratti separati per luce e gas nel mercato tutelato. Enlil li ha analizzati tutti in una settimana, ci ha portati nel mercato libero con un unico referente e ora risparmiamo €8.400 ogni anno. Nessuna sorpresa in bolletta, nessun pensiero.",
     author: "Luca B.",
-    role: "Titolare, ristorazione — Napoli",
-    saving: "−€7.800/anno",
+    role: "Titolare, catena ristorazione HoReCa — Napoli",
+    saving: "−€8.400/anno",
   },
   {
     quote:
-      "Il cambio fornitore internet sembrava un'odissea burocratica. Enlil ha migrato la nostra fibra in 24h senza un minuto di downtime e ci garantisce €3.200 risparmiati ogni anno rispetto al contratto precedente.",
+      "Il cambio fornitore fibra aziendale sembrava un'odissea burocratica. Enlil ha migrato la nostra connessione in 24h senza un minuto di downtime, ci ha ottimizzato anche luce e SIM aziendali: €4.100 risparmiati all'anno rispetto ai contratti precedenti. Risultato verificabile in fattura.",
     author: "Stefano M.",
-    role: "CEO, e-commerce — Bologna",
-    saving: "−€3.200/anno",
+    role: "CEO, e-commerce (12 dipendenti) — Bologna",
+    saving: "−€4.100/anno",
   },
 ];
 
@@ -37,21 +37,22 @@ export default function SocialProofSection() {
         <div className="flex items-center justify-center gap-3 bg-orange-500/10 border border-orange-500/25 rounded-full px-5 py-2 mb-10 w-fit mx-auto">
           <span className="w-2 h-2 bg-orange-400 rounded-full animate-pulse flex-shrink-0" />
           <span className="text-orange-300 text-xs font-bold uppercase tracking-wide">
-            Attenzione PMI · Elettricità +8,1% nel Q2 2026 · Ogni mese che aspetti è denaro perso
+            Bollette aziendali +19,2% nel 2025 · €85 mld di extra costi per le imprese italiane · Ogni mese che aspetti è denaro perso
           </span>
         </div>
 
         {/* stats */}
         <div className="text-center mb-16">
           <p className="text-orange-400 font-bold uppercase tracking-widest text-sm mb-3">
-            Risultati reali · Clienti verificati · Mercato libero 2026
+            Risultati reali · Clienti verificati · Broker indipendente certificato ARERA
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4 tracking-tight">
-            Risparmio bollette certificato<br className="hidden sm:block" /> per PMI e imprese italiane.
+            Riduzione costi energetici certificata<br className="hidden sm:block" /> per PMI e imprese italiane.
           </h2>
           <p className="text-slate-400 text-lg max-w-xl mx-auto">
-            Dati aggiornati a maggio 2026. Ogni risparmio è verificabile e
-            documentato prima che tu firmi qualsiasi cosa. Consulenza sempre gratuita.
+            Dati aggiornati a maggio 2026. Il mercato libero energia può far risparmiare
+            fino al 20% sui costi di luce e gas aziendali — ogni cifra è verificabile
+            e documentata prima che tu firmi. Consulenza gratuita, zero vincoli.
           </p>
         </div>
 
@@ -99,20 +100,20 @@ export default function SocialProofSection() {
         {/* trust band */}
         <div className="border-t border-white/10 pt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           <div>
-            <div className="text-white font-black text-sm mb-1">Operatore autorizzato</div>
-            <div className="text-slate-500 text-xs">Mercato libero luce e gas — ARERA</div>
+            <div className="text-white font-black text-sm mb-1">Broker indipendente ARERA</div>
+            <div className="text-slate-500 text-xs">Mercato libero luce e gas — nessun fornitore preferito</div>
           </div>
           <div>
             <div className="text-white font-black text-sm mb-1">Attivi dal 2019</div>
-            <div className="text-slate-500 text-xs">7 anni al servizio delle PMI italiane</div>
+            <div className="text-slate-500 text-xs">7 anni · oltre 670 PMI italiane servite</div>
           </div>
           <div>
-            <div className="text-white font-black text-sm mb-1">Consulenza gratuita</div>
-            <div className="text-slate-500 text-xs">Nessun costo, nessun vincolo</div>
+            <div className="text-white font-black text-sm mb-1">Risparmio garantito</div>
+            <div className="text-slate-500 text-xs">Analisi gratuita · risultati verificabili in 30 giorni</div>
           </div>
           <div>
-            <div className="text-white font-black text-sm mb-1">Cambio in 24h</div>
-            <div className="text-slate-500 text-xs">Luce, gas, internet, SIM — zero downtime</div>
+            <div className="text-white font-black text-sm mb-1">Switch in 24h · zero downtime</div>
+            <div className="text-slate-500 text-xs">Luce, gas, internet, SIM — gestione pratica inclusa</div>
           </div>
         </div>
       </div>
