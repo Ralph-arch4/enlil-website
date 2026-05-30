@@ -18,7 +18,7 @@ export default function CTASection() {
         {/* urgency badge */}
         <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-          Luce +8,1% nel Q2 2026 · Analisi gratuita — chiude il 15 giugno
+          Gas +35% · PUN 0,25 €/kWh · Energia +38,9% vs 2019 · Analisi gratuita chiude 15/06
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 tracking-tight">

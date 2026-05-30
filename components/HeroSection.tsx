@@ -18,7 +18,7 @@ export default function HeroSection() {
         {/* badge */}
         <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" />
-          Broker Energetico Certificato · Analisi Gratuita · Decreto Bollette 2026
+          Broker Energetico Certificato · Gas +35% Crisi Iran · PUN 0,25 €/kWh · Analisi Gratuita
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight max-w-4xl mb-6">

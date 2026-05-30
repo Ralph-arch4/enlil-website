@@ -45,6 +45,11 @@ export const metadata: Metadata = {
     "confronto fornitori energia business Italia",
     "migliore offerta luce gas imprese 2026",
     "risparmio energia PMI 5-50 dipendenti",
+    "prezzo PUN maggio giugno 2026 aziende",
+    "crisi gas aziende giugno 2026",
+    "gas naturale +35% 2026 imprese Italia",
+    "costo energia elettrica alto giugno 2026 PMI",
+    "risparmio bollette gas crisi 2026 imprese",
   ],
   authors: [{ name: "Enlil" }],
   metadataBase: new URL("https://enlil.app"),
@@ -193,6 +198,14 @@ const jsonLdFAQ = {
     },
     {
       "@type": "Question",
+      name: "Perché le bollette aziendali sono così alte in questo periodo?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A maggio 2026 il PUN (Prezzo Unico Nazionale dell'energia elettrica) ha raggiunto 0,254 €/kWh, tra i valori più elevati degli ultimi anni. Il gas europeo ha subito un rialzo del 35% a causa della crisi dello Stretto di Hormuz tra USA, Israele e Iran, che ha ridotto le forniture LNG. Poiché il 45-50% dell'elettricità italiana è prodotta da centrali a gas, il caro-gas si trasferisce direttamente sulle bollette luce. La spesa energetica delle PMI del terziario è già superiore del 38,9% rispetto al 2019. In questo scenario il cambio di fornitore con Enlil — che confronta in tempo reale oltre 50 fornitori — è lo strumento più efficace per limitare i danni immediati.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "Posso unire luce e gas in un'unica offerta dual fuel?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -213,7 +226,7 @@ const jsonLdWebPage = {
   isPartOf: { "@type": "WebSite", name: "Enlil", url: "https://enlil.app" },
   about: { "@type": "Organization", name: "Enlil", url: "https://enlil.app" },
   primaryImageOfPage: { "@type": "ImageObject", url: "https://enlil.app/og-image.png" },
-  dateModified: "2026-05-24",
+  dateModified: "2026-05-30",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
