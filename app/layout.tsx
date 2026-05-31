@@ -226,7 +226,7 @@ const jsonLdWebPage = {
   isPartOf: { "@type": "WebSite", name: "Enlil", url: "https://enlil.app" },
   about: { "@type": "Organization", name: "Enlil", url: "https://enlil.app" },
   primaryImageOfPage: { "@type": "ImageObject", url: "https://enlil.app/og-image.png" },
-  dateModified: "2026-05-30",
+  dateModified: "2026-05-31",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [

@@ -29,11 +29,12 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-          Enlil è il broker energetico certificato scelto da oltre 600 PMI e
-          imprese italiane. Confrontiamo in tempo reale tutti i fornitori del
+          Enlil è il broker energetico certificato scelto da oltre 670 PMI e
+          imprese italiane. Confrontiamo in tempo reale oltre 50 fornitori del
           mercato libero 2026 per luce, gas, internet e SIM — tariffe business
-          esclusive, IVA agevolata al 10% e risparmio garantito fino a
-          €8.500/anno. Analisi gratuita, zero burocrazia, zero interruzioni.
+          esclusive, IVA agevolata al 10%, offerte PLACET e prezzo fisso 12–24
+          mesi. Risparmio garantito fino a €8.500/anno. Analisi gratuita, zero
+          burocrazia, zero interruzioni.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-14">
