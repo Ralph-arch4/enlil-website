@@ -1,0 +1,61 @@
+{
+  "project": "ENLIL",
+  "url": "http://localhost:3000",
+  "command": "node screenshots.mjs",
+  "screenshots_dir": "screenshots",
+  "pages": [
+    { "file": "desktop-hero.png",     "label": "Desktop Hero",     "auth": false },
+    { "file": "desktop-services.png", "label": "Desktop Services", "auth": false },
+    { "file": "desktop-contact.png",  "label": "Desktop Contact",  "auth": false },
+    { "file": "mobile-hero.png",      "label": "Mobile Hero",      "auth": false },
+    { "file": "mobile-services.png",  "label": "Mobile Services",  "auth": false },
+    { "file": "mobile-contact.png",   "label": "Mobile Contact",   "auth": false }
+  ],
+  "checklists": {
+    "Desktop Hero": [
+      "ENLIL heading visible in large Orbitron font",
+      "Gold color scheme applied (no purple/green remnants)",
+      "Navbar shows ENLIL logo and wordmark",
+      "3D gold globe visible with orbiting rings",
+      "Wing quills visible on left and right of globe",
+      "Gold particle field present",
+      "Cyber grid ground plane visible",
+      "CTA button 'Get in Touch' present",
+      "Web & Utility Brokerage tagline visible",
+      "Cyber grid overlay on hero background"
+    ],
+    "Desktop Services": [
+      "4 service cards visible in 2x2 grid",
+      "Gold card borders and hover accents",
+      "Service titles in Orbitron font",
+      "Icons present for each service",
+      "Section label '// WHAT WE DO' visible",
+      "Gold bullet points on service items"
+    ],
+    "Desktop Contact": [
+      "Gold orrery (3 nested spinning rings) visible on left",
+      "Contact heading in gold Orbitron font",
+      "Email address displayed",
+      "Send Message CTA button present",
+      "Social icons visible",
+      "No green color remnants from old design"
+    ],
+    "Mobile Hero": [
+      "ENLIL heading readable at mobile size",
+      "No horizontal scroll",
+      "Navbar gold hamburger visible",
+      "3D scene not broken",
+      "CTA button accessible"
+    ],
+    "Mobile Services": [
+      "Cards stack to single column",
+      "Text readable",
+      "No overflow"
+    ],
+    "Mobile Contact": [
+      "Content stacks correctly",
+      "Email readable",
+      "No horizontal overflow"
+    ]
+  }
+}
