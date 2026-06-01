@@ -229,6 +229,13 @@ button,
   box-shadow: 0 4px 24px rgba(0,0,0,0.4);
 }
 
+/* ── Aurora mesh hero animation ─────────────────────────────── */
+@keyframes auraMeshHero {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 /* ── Sticky CTA fade-in ──────────────────────────────────────── */
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-6px); }

@@ -132,21 +132,35 @@ export default function ContactSection() {
 
         <motion.div {...fadeUp(0.26)} className="mt-8 w-16 h-px bg-gold-primary/40" />
 
-        <motion.div {...fadeUp(0.32)} className="mt-8 space-y-4">
-          <div>
-            <p className="text-[10px] tracking-[0.3em] uppercase text-gold-primary/35 mb-1.5 font-mono">EMAIL</p>
-            <a href={`mailto:${content.contact.email}`}
-              className="text-lg md:text-xl font-bold text-white hover:text-gold-primary transition-colors duration-300 break-all">
-              {content.contact.email}
-            </a>
-          </div>
-          <div>
-            <p className="text-[10px] tracking-[0.3em] uppercase text-gold-primary/35 mb-1.5 font-mono">TELEFONO</p>
-            <a href={`tel:${content.contact.phone?.replace(/\s/g, '')}`}
-              className="text-lg md:text-xl font-bold text-white hover:text-gold-primary transition-colors duration-300">
-              {content.contact.phone}
-            </a>
-          </div>
+        <motion.div {...fadeUp(0.32)} className="mt-8 space-y-3">
+          <a href={`mailto:${content.contact.email}`}
+            className="group flex items-center gap-4 p-4 border border-gold-primary/10 hover:border-gold-primary/35 transition-all duration-300 hover:bg-[rgba(212,175,55,0.03)]">
+            <div className="w-8 h-8 flex-shrink-0 flex items-center justify-center border border-gold-primary/20 group-hover:border-gold-primary/50 transition-colors duration-300">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" strokeWidth="1.5">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <p className="text-[9px] tracking-[0.26em] uppercase text-gold-primary/35 font-mono mb-0.5">Email</p>
+              <p className="text-sm font-semibold text-white group-hover:text-gold-primary transition-colors duration-200 break-all">
+                {content.contact.email}
+              </p>
+            </div>
+          </a>
+          <a href={`tel:${content.contact.phone?.replace(/\s/g, '')}`}
+            className="group flex items-center gap-4 p-4 border border-gold-primary/10 hover:border-gold-primary/35 transition-all duration-300 hover:bg-[rgba(212,175,55,0.03)]">
+            <div className="w-8 h-8 flex-shrink-0 flex items-center justify-center border border-gold-primary/20 group-hover:border-gold-primary/50 transition-colors duration-300">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" strokeWidth="1.5">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-5-5 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <p className="text-[9px] tracking-[0.26em] uppercase text-gold-primary/35 font-mono mb-0.5">Telefono</p>
+              <p className="text-sm font-semibold text-white group-hover:text-gold-primary transition-colors duration-200">
+                {content.contact.phone}
+              </p>
+            </div>
+          </a>
         </motion.div>
 
         <motion.div {...fadeUp(0.44)} className="mt-8 flex flex-wrap gap-3">
