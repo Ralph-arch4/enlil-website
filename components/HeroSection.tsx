@@ -56,11 +56,11 @@ export default function HeroSection() {
         {/* social proof strip */}
         <div className="flex flex-wrap gap-x-10 gap-y-4 text-slate-400 text-sm font-medium border-t border-white/10 pt-10">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-white">600+</span>
+            <span className="text-2xl font-black text-white">670+</span>
             PMI e imprese clienti
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-black text-orange-400">€8.500</span>
+            <span className="text-2xl font-black text-orange-400">€9.200</span>
             risparmio medio annuo certificato
           </div>
           <div className="flex items-center gap-2">
