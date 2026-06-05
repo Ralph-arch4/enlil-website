@@ -18,20 +18,21 @@ export default function CTASection() {
         {/* urgency badge */}
         <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-          Gas +35% · PUN 0,25 €/kWh · Energia +38,9% vs 2019 · Analisi gratuita chiude 15/06
+          Decreto Bollette 2026 attivo · Risparmio fino a 3.400€/anno per PMI · Offerta chiude 15/06 — 10 giorni
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 tracking-tight">
-          Stai pagando il 34% in più del dovuto.
+          Ogni giorno senza cambiare fornitore
           <br />
-          <span className="text-white/80">Le PMI italiane risparmiano in media €8.500/anno con Enlil.</span>
+          <span className="text-white/80">ti costa soldi che non riavrai mai più.</span>
         </h2>
 
         <p className="text-white/90 text-lg max-w-2xl mx-auto mb-4 leading-relaxed">
-          Bastano 2 bollette — confrontiamo in tempo reale tutti i fornitori del
-          mercato libero business e ti diciamo esattamente quanto recuperi
-          cambiando fornitore. Risposta in 2 ore lavorative, zero burocrazia,
-          zero interruzioni, zero costi nascosti.
+          Con il Decreto Bollette 2026 il cambio fornitore luce è ora in{" "}
+          <strong className="text-white">24 ore</strong> — nessuna scusa per rimandare.
+          Inviaci 2 bollette: confrontiamo in tempo reale tutti i fornitori del
+          mercato libero business e ti diciamo esattamente quanto recuperi.
+          Risposta in 2 ore lavorative, zero burocrazia, zero interruzioni.
         </p>
 
         {/* guarantee banner */}
@@ -44,13 +45,13 @@ export default function CTASection() {
             href="mailto:info@enlil.app?subject=Analisi%20gratuita%20bollette%20aziendali"
             className="inline-flex items-center justify-center gap-2 bg-white text-orange-600 font-black text-lg px-8 py-4 rounded-full transition-all hover:bg-orange-50 shadow-2xl shadow-black/20 hover:-translate-y-0.5"
           >
-            Calcola il Risparmio Ora — Chiude il 15/06 →
+            Scopri Quanto Risparmi Ora — Chiude il 15/06 →
           </a>
           <a
             href="tel:+390000000000"
             className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold text-lg px-8 py-4 rounded-full border border-white/30 transition-all"
           >
-            📞 Chiamata gratuita · Risponde entro 60 sec
+            📞 Parla con un Esperto · Risponde in 60 sec
           </a>
         </div>
 
@@ -60,10 +61,10 @@ export default function CTASection() {
             <span className="text-white">✓</span> Risparmio medio €8.500/anno per PMI
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Analisi bollette in 2 ore lavorative
+            <span className="text-white">✓</span> Cambio fornitore luce in 24 ore — ora per legge
           </span>
           <span className="flex items-center gap-1.5">
-            <span className="text-white">✓</span> Risparmio certificato 10–20% su tariffe business
+            <span className="text-white">✓</span> Decreto Bollette 2026: riduzione 3,4 €/MWh garantita
           </span>
           <span className="flex items-center gap-1.5">
             <span className="text-white">✓</span> Nessun costo, zero vincoli
