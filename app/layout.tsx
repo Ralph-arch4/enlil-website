@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Enlil — Broker Luce, Gas e SIM per Aziende e Partita IVA | -30% nel 2026",
+  title: "Enlil — Broker Luce, Gas e SIM per Aziende | PUN +11% Giugno 2026: Risparmia Ora",
   description:
-    "Broker di luce, gas, internet e SIM per PMI e Partita IVA. Mercato libero 2026: risparmio medio €8.500/anno. Analisi gratuita in 48h. Nessun costo, nessun vincolo.",
+    "PUN a 0,275 €/kWh: +11,7% in 7 giorni. Broker luce, gas, internet e SIM per PMI e Partita IVA. Risparmio medio €8.500/anno. Cambio fornitore in 24h. Analisi gratuita, nessun vincolo.",
   keywords: [
     "broker luce gas imprese Italia",
     "risparmio bollette aziende",
@@ -50,6 +50,16 @@ export const metadata: Metadata = {
     "gas naturale +35% 2026 imprese Italia",
     "costo energia elettrica alto giugno 2026 PMI",
     "risparmio bollette gas crisi 2026 imprese",
+    "PUN giugno 2026 aziende PMI",
+    "PSV gas giugno 2026 imprese",
+    "cambio fornitore luce 24 ore 2026",
+    "IVA 10 utenze business aziendali",
+    "bollette luce rincaro giugno 2026 PMI",
+    "costo kWh aziendale giugno 2026",
+    "decreto bollette 2026 agevolazioni imprese",
+    "fornitore luce gas economico aziende 2026",
+    "risparmio bollette cambio fornitore 24 ore",
+    "confronto tariffe luce gas business giugno 2026",
   ],
   authors: [{ name: "Enlil" }],
   metadataBase: new URL("https://enlil.app"),
@@ -59,9 +69,9 @@ export const metadata: Metadata = {
     locale: "it_IT",
     url: "https://enlil.app",
     siteName: "Enlil",
-    title: "Enlil — Broker Luce, Gas, Internet e SIM | Risparmia -30% nel 2026",
+    title: "Enlil — Broker Luce, Gas e SIM per Aziende | PUN +11% Giugno 2026: Risparmia Ora",
     description:
-      "Broker indipendente per PMI e Partita IVA italiane. Mercato libero 2026: risparmio medio €8.500/anno su luce, gas, internet e SIM. Analisi gratuita in 48h, nessun vincolo.",
+      "PUN a 0,275 €/kWh (+11,7% in 7 giorni). Broker indipendente per PMI e Partita IVA italiane. Risparmio medio €8.500/anno su luce, gas, internet e SIM. Cambio fornitore in 24h. Analisi gratuita, nessun vincolo.",
     images: [
       {
         url: "/og-image.png",
@@ -73,9 +83,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Enlil | Broker Utenze Aziendali 2026 | Risparmia -30%",
+    title: "Enlil | Broker Utenze Aziendali | PUN 0,275 €/kWh Giugno 2026 | Risparmia Subito",
     description:
-      "Broker luce, gas, internet e SIM per PMI e Partita IVA. Mercato libero 2026: risparmio medio €8.500/anno. Analisi gratuita in 48h.",
+      "Bollette alle stelle: PUN +11,7% in 7 giorni. Broker luce, gas, internet e SIM per PMI e Partita IVA. Risparmio medio €8.500/anno. Cambio fornitore in 24h.",
   },
   robots: {
     index: true,
@@ -201,7 +211,7 @@ const jsonLdFAQ = {
       name: "Perché le bollette aziendali sono così alte in questo periodo?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A maggio 2026 il PUN (Prezzo Unico Nazionale dell'energia elettrica) ha raggiunto 0,254 €/kWh, tra i valori più elevati degli ultimi anni. Il gas europeo ha subito un rialzo del 35% a causa della crisi dello Stretto di Hormuz tra USA, Israele e Iran, che ha ridotto le forniture LNG. Poiché il 45-50% dell'elettricità italiana è prodotta da centrali a gas, il caro-gas si trasferisce direttamente sulle bollette luce. La spesa energetica delle PMI del terziario è già superiore del 38,9% rispetto al 2019. In questo scenario il cambio di fornitore con Enlil — che confronta in tempo reale oltre 50 fornitori — è lo strumento più efficace per limitare i danni immediati.",
+        text: "A giugno 2026 il PUN (Prezzo Unico Nazionale dell'energia elettrica) ha raggiunto 0,275 €/kWh, con un rialzo dell'11,7% negli ultimi 7 giorni. Il PSV del gas naturale è a 0,547 €/Smc, ai massimi del 2026. Il gas europeo ha subito un rialzo del 35% a causa della crisi dello Stretto di Hormuz tra USA, Israele e Iran, che ha ridotto le forniture LNG. Poiché il 45-50% dell'elettricità italiana è prodotta da centrali a gas, il caro-gas si trasferisce direttamente sulle bollette luce. La spesa energetica delle PMI del terziario è già superiore del 38,9% rispetto al 2019. In questo scenario il cambio di fornitore con Enlil — che confronta in tempo reale oltre 50 fornitori — è lo strumento più efficace per limitare i danni: dal 1° gennaio 2026 il cambio fornitore per la luce si completa in sole 24 ore lavorative.",
       },
     },
     {
@@ -226,7 +236,7 @@ const jsonLdWebPage = {
   isPartOf: { "@type": "WebSite", name: "Enlil", url: "https://enlil.app" },
   about: { "@type": "Organization", name: "Enlil", url: "https://enlil.app" },
   primaryImageOfPage: { "@type": "ImageObject", url: "https://enlil.app/og-image.png" },
-  dateModified: "2026-05-31",
+  dateModified: "2026-06-06",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
