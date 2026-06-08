@@ -13,10 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Enlil — Broker Luce, Gas e SIM per Aziende | PUN +11% Giugno 2026: Risparmia Ora",
+  title: "Enlil — Preventivo Gratis Luce, Gas, Internet e SIM per Aziende | Risparmia fino al 30% nel 2026",
   description:
-    "PUN a 0,275 €/kWh: +11,7% in 7 giorni. Broker luce, gas, internet e SIM per PMI e Partita IVA. Risparmio medio €8.500/anno. Cambio fornitore in 24h. Analisi gratuita, nessun vincolo.",
+    "Richiedi il preventivo gratuito: confrontiamo oltre 50 fornitori di luce, gas, fibra e SIM business e troviamo l'offerta più conveniente per la tua PMI o Partita IVA. Risparmio medio €8.500/anno, cambio fornitore in 24h, nessun costo né vincolo.",
   keywords: [
+    "preventivo energia aziendale gratuito",
+    "consulente energetico PMI gratuito",
+    "energy manager esterno PMI",
+    "confronto offerte luce gas business online",
+    "gruppo acquisto energia imprese",
+    "broker indipendente energia aziendale Italia",
+    "richiedi preventivo luce gas azienda",
+    "quanto si risparmia con un broker energetico aziendale",
     "broker luce gas imprese Italia",
     "risparmio bollette aziende",
     "consulenza energetica aziendale",
@@ -69,9 +77,9 @@ export const metadata: Metadata = {
     locale: "it_IT",
     url: "https://enlil.app",
     siteName: "Enlil",
-    title: "Enlil — Broker Luce, Gas e SIM per Aziende | PUN +11% Giugno 2026: Risparmia Ora",
+    title: "Enlil — Preventivo Gratis Luce, Gas, Internet e SIM per Aziende | Risparmia fino al 30% nel 2026",
     description:
-      "PUN a 0,275 €/kWh (+11,7% in 7 giorni). Broker indipendente per PMI e Partita IVA italiane. Risparmio medio €8.500/anno su luce, gas, internet e SIM. Cambio fornitore in 24h. Analisi gratuita, nessun vincolo.",
+      "Richiedi il preventivo gratuito: confrontiamo oltre 50 fornitori di luce, gas, fibra e SIM business e troviamo l'offerta più conveniente per la tua PMI o Partita IVA. Risparmio medio €8.500/anno, cambio fornitore in 24h, nessun costo né vincolo.",
     images: [
       {
         url: "/og-image.png",
@@ -83,9 +91,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Enlil | Broker Utenze Aziendali | PUN 0,275 €/kWh Giugno 2026 | Risparmia Subito",
+    title: "Enlil | Preventivo Gratis Luce, Gas, Internet e SIM per Aziende | Risparmia fino al 30%",
     description:
-      "Bollette alle stelle: PUN +11,7% in 7 giorni. Broker luce, gas, internet e SIM per PMI e Partita IVA. Risparmio medio €8.500/anno. Cambio fornitore in 24h.",
+      "Confrontiamo gratis oltre 50 fornitori di luce, gas, fibra e SIM business per la tua PMI o Partita IVA. Risparmio medio €8.500/anno, cambio fornitore in 24h, nessun costo né vincolo.",
   },
   robots: {
     index: true,
