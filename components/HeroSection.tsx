@@ -18,23 +18,23 @@ export default function HeroSection() {
         {/* badge */}
         <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" />
-          Broker Energetico Certificato · Gas +35% Crisi Iran · PUN 0,25 €/kWh · Analisi Gratuita
+          Broker Energetico Certificato · Mercato Libero Obbligatorio 2026 · PUN 0,25 €/kWh · Analisi Gratuita Oggi
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight max-w-4xl mb-6">
-          La tua Partita IVA brucia{" "}
-          <span className="text-orange-400">€8.500 ogni anno</span>
+          La tua Partita IVA paga{" "}
+          <span className="text-orange-400">€708 al mese di troppo</span>
           <br />
-          in bollette business. Recuperali in 24 ore — gratis.
+          in bollette business. Tagliamo tutto in 24h — gratis, garantito.
         </h1>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-          Enlil è il broker energetico certificato scelto da oltre 670 PMI e
-          imprese italiane. Confrontiamo in tempo reale oltre 50 fornitori del
-          mercato libero 2026 per luce, gas, internet e SIM — tariffe business
-          esclusive, IVA agevolata al 10%, offerte PLACET e prezzo fisso 12–24
-          mesi. Risparmio garantito fino a €8.500/anno. Analisi gratuita, zero
-          burocrazia, zero interruzioni.
+          Enlil è il tuo energy manager digitale certificato: confrontiamo in
+          tempo reale oltre 50 fornitori del mercato libero 2026 per luce, gas,
+          internet e SIM — tariffe business esclusive per Partita IVA e PMI,
+          IVA agevolata al 10%, prezzo fisso 12–24 mesi, offerte PLACET.
+          Risparmio medio certificato €9.200/anno. Cambio fornitore in 24h,
+          zero burocrazia, zero interruzioni al servizio.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-14">
@@ -42,14 +42,14 @@ export default function HeroSection() {
             href="#contatti"
             className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-black text-lg px-8 py-4 rounded-full transition-all shadow-xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-0.5"
           >
-            Analisi Gratuita — Vedi il Tuo Risparmio
+            Calcola Quanto Risparmi Oggi — Gratis
             <span aria-hidden>→</span>
           </a>
           <a
             href="#servizi"
             className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white font-semibold text-lg px-8 py-4 rounded-full border border-white/20 transition-all"
           >
-            Come funziona in 3 passi
+            Come funziona — 3 passi semplici
           </a>
         </div>
 
