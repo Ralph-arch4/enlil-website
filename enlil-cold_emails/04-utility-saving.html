@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Bollette e contratti? Zero sbattimenti, pensiamo a tutto noi! — ENLIL</title>
+  <!--[if mso]>
+  <noscript>
+    <xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: #050a18;
+      font-family: 'Space Grotesk', Arial, sans-serif;
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .preheader {
+      display: none !important;
+      visibility: hidden;
+      opacity: 0;
+      color: transparent;
+      height: 0;
+      width: 0;
+      font-size: 1px;
+      line-height: 1px;
+      max-height: 0;
+      max-width: 0;
+      overflow: hidden;
+      mso-hide: all;
+    }
+
+    .email-wrapper {
+      background-color: #050a18;
+      padding: 40px 20px;
+    }
+
+    .email-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #06091a;
+      border: 1px solid rgba(212,175,55,0.15);
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #050a18 0%, #0a1220 100%);
+      padding: 32px 40px;
+      border-bottom: 1px solid rgba(212,175,55,0.12);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(212,175,55,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(212,175,55,0.03) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-group { display: flex; align-items: center; gap: 10px; }
+
+    .logo-badge {
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, #D4AF37, #9A7D2E);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900; font-size: 14px; color: #050a18;
+      clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+    }
+
+    .logo-text { display: flex; flex-direction: column; line-height: 1; }
+    .logo-name { font-size: 13px; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: #D4AF37; }
+    .logo-tagline { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(212,175,55,0.4); margin-top: 3px; font-family: 'Courier New', monospace; }
+
+    .subject-indicator { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(212,175,55,0.3); font-family: 'Courier New', monospace; }
+
+    .header-headline { margin-top: 28px; position: relative; z-index: 1; }
+
+    .pre-headline { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(212,175,55,0.5); font-family: 'Courier New', monospace; margin-bottom: 12px; }
+    .pulse-dot { display: inline-block; width: 8px; height: 8px; background: #D4AF37; border-radius: 50%; margin-right: 8px; vertical-align: middle; box-shadow: 0 0 8px rgba(212,175,55,0.6); }
+
+    .main-headline { font-size: 28px; font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; color: #ffffff; }
+    .main-headline span { color: #D4AF37; }
+
+    .gold-line { height: 1px; background: linear-gradient(90deg, transparent, #D4AF37, transparent); opacity: 0.3; }
+
+    /* Body */
+    .body { padding: 36px 40px; }
+    .body p { font-size: 15px; line-height: 1.75; color: rgba(255,255,255,0.72); margin-bottom: 20px; }
+    .body p strong { color: #ffffff; font-weight: 600; }
+
+    .callout { background: rgba(212,175,55,0.04); border-left: 3px solid #D4AF37; padding: 16px 20px; margin: 24px 0; }
+    .callout p { font-size: 16px; font-style: italic; color: rgba(255,255,255,0.78); margin: 0; }
+
+    /* Stat highlight */
+    .stat-block { background: linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(212,175,55,0.02) 100%); border: 1px solid rgba(212,175,55,0.18); padding: 22px 24px; margin: 28px 0; text-align: center; }
+    .stat-number { font-size: 42px; font-weight: 700; color: #D4AF37; letter-spacing: -0.02em; display: block; }
+    .stat-label { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.45); font-family: 'Courier New', monospace; margin-top: 4px; display: block; }
+
+    /* Service list (icon + title + desc) */
+    .svc-list { list-style: none; margin: 26px 0; }
+    .svc-list li { padding: 16px 0; border-bottom: 1px solid rgba(212,175,55,0.07); }
+    .svc-list li:last-child { border-bottom: none; }
+    .svc-title { font-size: 14px; font-weight: 700; color: #D4AF37; letter-spacing: 0.02em; margin-bottom: 5px; }
+    .svc-title .ico { margin-right: 8px; }
+    .svc-desc { font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.6); }
+
+    /* Guarantee block */
+    .guarantee { background: rgba(212,175,55,0.05); border: 1px dashed rgba(212,175,55,0.35); padding: 20px 22px; margin: 26px 0; text-align: center; }
+    .guarantee .g-title { font-size: 13px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: #D4AF37; margin-bottom: 8px; }
+    .guarantee .g-desc { font-size: 13.5px; line-height: 1.65; color: rgba(255,255,255,0.6); }
+
+    /* CTA */
+    .cta-section { text-align: center; padding: 16px 0 4px; }
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #D4AF37 0%, #9A7D2E 100%);
+      color: #050a18 !important; font-weight: 700; font-size: 12px;
+      letter-spacing: 0.22em; text-transform: uppercase; text-decoration: none;
+      padding: 16px 34px; margin: 6px;
+      clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    }
+    .cta-button-alt {
+      display: inline-block;
+      background: transparent; color: #D4AF37 !important; font-weight: 700; font-size: 12px;
+      letter-spacing: 0.22em; text-transform: uppercase; text-decoration: none;
+      padding: 15px 32px; margin: 6px; border: 1px solid rgba(212,175,55,0.55);
+    }
+    .cta-subtext { font-size: 11px; color: rgba(255,255,255,0.32); margin-top: 12px; font-family: 'Courier New', monospace; letter-spacing: 0.08em; }
+
+    /* Footer */
+    .footer { padding: 24px 40px; border-top: 1px solid rgba(212,175,55,0.08); background: rgba(0,0,0,0.2); }
+    .footer-signature { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.7; }
+    .footer-signature strong { color: #D4AF37; font-weight: 600; }
+    .footer-signature a { color: rgba(212,175,55,0.7); text-decoration: none; }
+    .footer-tagline { margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(212,175,55,0.06); font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(212,175,55,0.2); font-family: 'Courier New', monospace; }
+    .unsubscribe { font-size: 10px; color: rgba(255,255,255,0.2); margin-top: 8px; }
+    .unsubscribe a { color: rgba(255,255,255,0.25); }
+
+    @media (max-width: 480px) {
+      .header, .body, .footer { padding-left: 24px; padding-right: 24px; }
+      .main-headline { font-size: 22px; }
+      .cta-button, .cta-button-alt { padding: 14px 22px; display: block; }
+    }
+  </style>
+</head>
+<body>
+<div class="preheader">-20% su luce, gas e wifi. Ci pensiamo noi a tutto: tu devi solo darci l'OK.</div>
+<div class="email-wrapper">
+  <div class="email-container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-grid"></div>
+      <div class="header-top">
+        <div class="logo-group">
+          <div class="logo-badge">E</div>
+          <div class="logo-text">
+            <span class="logo-name">ENLIL</span>
+            <span class="logo-tagline">Web &amp; Utility Brokerage</span>
+          </div>
+        </div>
+        <span class="subject-indicator">// -20% LUCE · GAS · WIFI</span>
+      </div>
+      <div class="header-headline">
+        <p class="pre-headline"><span class="pulse-dot"></span>Risparmio Utenze</p>
+        <h1 class="main-headline">
+          Bollette e contratti?<br>
+          <span>Pensiamo a tutto noi.</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="gold-line"></div>
+
+    <!-- BODY -->
+    <div class="body">
+
+      <p>Ciao <strong>[Nome]</strong>,</p>
+
+      <p>Quante ore hai perso nell'ultimo mese a confrontare tariffe di luce, gas, internet o telefonia mobile, cercando di capire dove si nascondesse la fregatura?</p>
+
+      <p>La verità è che gestire le utenze di casa è diventato un secondo lavoro: tariffe che cambiano, call center che non rispondono e scartoffie infinite.</p>
+
+      <div class="callout">
+        <p>E se ti dicessimo che da oggi non devi più muovere un dito?</p>
+      </div>
+
+      <p><strong>ENLIL è la soluzione cucita su misura per te.</strong> Ci occupiamo noi di monitorare il mercato, confrontare qualsiasi operatore e selezionare l'opzione davvero migliore e più conveniente per la tua casa.</p>
+
+      <p>Pensiamo a tutto noi. 🌟</p>
+
+      <div class="stat-block">
+        <span class="stat-number">-20%</span>
+        <span class="stat-label">In media su luce, gas e wifi</span>
+      </div>
+
+      <ul class="svc-list">
+        <li>
+          <div class="svc-title"><span class="ico">⚡</span>Luce e Gas</div>
+          <div class="svc-desc">Tagliamo i costi superflui senza che tu debba impazzire tra kW/h e Smc. Ci pensiamo noi a stipulare i contratti per conto tuo.</div>
+        </li>
+        <li>
+          <div class="svc-title"><span class="ico">📶</span>Wi-Fi e SIM</div>
+          <div class="svc-desc">Scegliamo le opzioni migliori per la tua situazione, grazie ai nostri esperti con oltre 30 anni nel settore. Gestiamo tutti i principali operatori in Italia: con i nostri contatti di assistenza interna non dovrai più restare attaccato al telefono con i call center senza concludere nulla.</div>
+        </li>
+        <li>
+          <div class="svc-title"><span class="ico">📂</span>Burocrazia Zero</div>
+          <div class="svc-desc">Attivazioni, disdette, passaggi… gestiamo tutto noi, dalla A alla Z.</div>
+        </li>
+      </ul>
+
+      <p><strong>Cosa devi fare tu?</strong> Assolutamente nulla, solo darci l'OK.</p>
+
+      <div class="guarantee">
+        <div class="g-title">🛡️ Soddisfatti o Rimborsati</div>
+        <div class="g-desc">Zero rischi, massima trasparenza. Siamo così sicuri di farti risparmiare tempo e denaro che ti offriamo una garanzia totale di 30 giorni: se per qualsiasi motivo non sarai soddisfatto del nostro servizio, ti rimborsiamo l'importo pagato. Senza domande.</div>
+      </div>
+
+      <p>Vuoi iniziare a risparmiare senza stress? <strong>Rispondi a questa email allegando una foto delle tue ultime bollette</strong> — oppure scrivici un messaggio su WhatsApp. Al resto ci pensiamo noi.</p>
+
+      <div class="cta-section">
+        <a href="https://wa.me/393922211527?text=Ciao%20ENLIL,%20vorrei%20risparmiare%20su%20luce,%20gas%20e%20wifi." class="cta-button">
+          → Scrivici su WhatsApp
+        </a>
+        <a href="mailto:lorenzo@enlil.live?subject=Voglio%20risparmiare%20su%20luce%2C%20gas%20e%20wifi&amp;body=Ciao%20ENLIL%2C%0Aallego%20le%20mie%20ultime%20bollette.%20Vorrei%20una%20consulenza%20gratuita." class="cta-button-alt">
+          Rispondi via Email
+        </a>
+        <p class="cta-subtext">Nessun impegno · Risposta entro 24h · +39 392 221 1527</p>
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="footer-signature">
+        Un saluto,<br><br>
+        <strong>Lorenzo — Il Team ENLIL</strong><br>
+        <a href="mailto:lorenzo@enlil.live">lorenzo@enlil.live</a> ·
+        <a href="tel:+393922211527">+39 392 221 1527</a><br>
+        <a href="https://enlil-brokerage.vercel.app">enlil-brokerage.vercel.app</a>
+      </div>
+      <div class="footer-tagline">ENLIL — Non siamo un fornitore. Siamo dalla tua parte.</div>
+      <div class="unsubscribe">
+        Non vuoi più ricevere queste email? <a href="#">Cancellati qui</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

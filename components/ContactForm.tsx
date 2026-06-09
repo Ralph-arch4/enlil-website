@@ -1,57 +1,58 @@
 'use client'
 
 import { useState } from 'react'
+import { content } from '@/lib/content'
 
-type Status = 'idle' | 'loading' | 'success' | 'error'
+type Status = 'idle' | 'success' | 'error'
 
 export default function ContactForm() {
   const [status, setStatus] = useState<Status>('idle')
   const [errorMsg, setErrorMsg] = useState('')
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    setStatus('loading')
     setErrorMsg('')
 
     const form = e.currentTarget
-    const data = {
-      name:    (form.elements.namedItem('name')    as HTMLInputElement).value,
-      email:   (form.elements.namedItem('email')   as HTMLInputElement).value,
-      service: (form.elements.namedItem('service') as HTMLSelectElement).value,
-      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
-    }
+    const name    = (form.elements.namedItem('name')    as HTMLInputElement).value.trim()
+    const email   = (form.elements.namedItem('email')   as HTMLInputElement).value.trim()
+    const service = (form.elements.namedItem('service') as HTMLSelectElement).value
+    const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value.trim()
 
-    try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      })
-
-      if (res.ok) {
-        setStatus('success')
-      } else {
-        const body = await res.json().catch(() => ({}))
-        setErrorMsg(body.error || 'Errore nell\'invio. Riprova.')
-        setStatus('error')
-      }
-    } catch {
-      setErrorMsg('Errore di connessione. Riprova.')
+    if (!name || !email || !message) {
+      setErrorMsg('Compila nome, email e messaggio.')
       setStatus('error')
+      return
     }
+
+    // Build a ready-to-send email and open the visitor's mail app (Gmail / etc.)
+    const subject = `Richiesta dal sito — ${name}${service ? ` · ${service}` : ''}`
+    const body =
+      `Nome: ${name}\n` +
+      `Email: ${email}\n` +
+      `Servizio di interesse: ${service || 'Non specificato'}\n\n` +
+      `Messaggio:\n${message}\n`
+    const mailto =
+      `mailto:${content.contact.email}` +
+      `?subject=${encodeURIComponent(subject)}` +
+      `&body=${encodeURIComponent(body)}`
+
+    window.location.href = mailto
+    setStatus('success')
   }
 
   if (status === 'success') {
     return (
       <div className="flex flex-col justify-center py-8">
-        <div className="w-10 h-10 border border-gold-primary/40 flex items-center justify-center mb-6 text-gold-primary text-xl">✓</div>
-        <p className="text-[10px] tracking-[0.3em] uppercase text-gold-primary/60 mb-3 font-mono">Messaggio Inviato</p>
+        <div className="w-10 h-10 border border-gold-primary/40 flex items-center justify-center mb-6 text-gold-primary text-xl">✉</div>
+        <p className="text-[10px] tracking-[0.3em] uppercase text-gold-primary/60 mb-3 font-mono">App Email Aperta</p>
         <p className="text-2xl font-black uppercase font-orbitron text-white leading-tight">
-          Grazie.<br />Ti risponderemo<br />entro 24 ore.
+          Ci sei quasi.<br />Premi invia<br />dalla tua email.
         </p>
         <p className="mt-4 text-sm text-white/40">
-          Nel frattempo puoi scriverci su{' '}
-          <a href="https://wa.me/393927036753" className="text-gold-primary hover:text-gold-bright transition-colors">WhatsApp</a>.
+          Abbiamo aperto la tua app email con il messaggio già pronto, indirizzato a{' '}
+          <span className="text-gold-primary">{content.contact.email}</span>. Se non si è aperta, scrivici su{' '}
+          <a href={content.contact.whatsapp} className="text-gold-primary hover:text-gold-bright transition-colors">WhatsApp</a>.
         </p>
       </div>
     )
@@ -114,10 +115,9 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        disabled={status === 'loading'}
-        className="mt-1 self-start btn-cyber px-10 py-3.5 border border-gold-primary/80 text-gold-primary text-[11px] font-bold tracking-[0.3em] uppercase hover:bg-gold-primary hover:text-navy-deep transition-all duration-300 min-h-[44px] disabled:opacity-50 disabled:cursor-not-allowed"
+        className="mt-1 self-start btn-cyber px-10 py-3.5 border border-gold-primary/80 text-gold-primary text-[11px] font-bold tracking-[0.3em] uppercase hover:bg-gold-primary hover:text-navy-deep transition-all duration-300 min-h-[44px]"
       >
-        {status === 'loading' ? 'Invio in corso...' : 'Invia Messaggio →'}
+        Invia Messaggio →
       </button>
     </form>
   )

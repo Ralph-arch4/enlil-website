@@ -26,15 +26,6 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div className="mb-10">
-              <p className="text-[10px] tracking-[0.3em] uppercase text-white/30 mb-2">Social</p>
-              <div className="flex flex-col gap-2 text-sm text-white/50">
-                <a href="#" className="hover:text-white transition-colors">Instagram</a>
-                <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-                <a href="#" className="hover:text-white transition-colors">Medium</a>
-              </div>
-            </div>
-
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-white/30 mb-2">
                 Disponibilità

@@ -9,6 +9,7 @@ const EASE: [number,number,number,number] = [0.16, 1, 0.3, 1]
 function Counter({ target, prefix, suffix, active, reduced }: {
   target: number; prefix: string; suffix: string; active: boolean; reduced: boolean
 }) {
+  const decimals = (String(target).split('.')[1] || '').length
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -21,13 +22,13 @@ function Counter({ target, prefix, suffix, active, reduced }: {
       frame++
       const progress = frame / totalFrames
       const eased = 1 - Math.pow(1 - progress, 3)
-      setCount(Math.min(Math.round(eased * target), target))
+      setCount(Math.min(eased * target, target))
       if (frame >= totalFrames) clearInterval(timer)
     }, 1000 / fps)
     return () => clearInterval(timer)
   }, [active, target, reduced])
 
-  return <>{prefix}{count}{suffix}</>
+  return <>{prefix}{count.toFixed(decimals)}{suffix}</>
 }
 
 export default function StatsSection() {
