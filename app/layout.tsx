@@ -164,7 +164,7 @@ const jsonLdFAQ = {
       name: 'Quanto posso risparmiare sulle bollette aziendali?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'In media le PMI risparmiano tra il 15% e il 30% su luce e gas, e fino al 40% sui piani SIM aziendali. Enlil fornisce un'analisi gratuita in 48 ore con i numeri precisi per la specifica situazione aziendale.',
+        text: "In media le PMI risparmiano tra il 15% e il 30% su luce e gas, e fino al 40% sui piani SIM aziendali. Enlil fornisce un'analisi gratuita in 48 ore con i numeri precisi per la specifica situazione aziendale.",
       },
     },
     {
@@ -196,7 +196,7 @@ const jsonLdFAQ = {
       name: 'Conviene una tariffa fissa o indicizzata per la luce aziendale?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Dipende dal profilo di consumo e dall'andamento del PUN (Prezzo Unico Nazionale). La tariffa fissa blocca il costo dell'energia per tutta la durata del contratto — ideale per aziende con budget rigidi o consumi elevati. La tariffa indicizzata (PUN + spread fisso) può essere più conveniente in fasi di mercato favorevoli, ma espone alle oscillazioni. Enlil consiglia la soluzione più adatta senza conflitti di interesse con nessun fornitore.',
+        text: "Dipende dal profilo di consumo e dall'andamento del PUN (Prezzo Unico Nazionale). La tariffa fissa blocca il costo dell'energia per tutta la durata del contratto — ideale per aziende con budget rigidi o consumi elevati. La tariffa indicizzata (PUN + spread fisso) può essere più conveniente in fasi di mercato favorevoli, ma espone alle oscillazioni. Enlil consiglia la soluzione più adatta senza conflitti di interesse con nessun fornitore.",
       },
     },
     {
@@ -204,7 +204,7 @@ const jsonLdFAQ = {
       name: 'Perché le bollette aziendali sono così alte in questo periodo?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A giugno 2026 il PUN (Prezzo Unico Nazionale) è tra i valori più elevati degli ultimi anni. Il gas europeo ha subito un rialzo significativo, che si trasferisce direttamente sulle bollette luce poiché circa il 45-50% dell'elettricità italiana è prodotta da centrali a gas. In questo scenario il cambio di fornitore con Enlil — che confronta in tempo reale oltre 50 fornitori — è lo strumento più efficace per limitare i danni immediati.',
+        text: "A giugno 2026 il PUN (Prezzo Unico Nazionale) è tra i valori più elevati degli ultimi anni. Il gas europeo ha subito un rialzo significativo, che si trasferisce direttamente sulle bollette luce poiché circa il 45-50% dell'elettricità italiana è prodotta da centrali a gas. In questo scenario il cambio di fornitore con Enlil — che confronta in tempo reale oltre 50 fornitori — è lo strumento più efficace per limitare i danni immediati.",
       },
     },
     {
@@ -220,7 +220,7 @@ const jsonLdFAQ = {
       name: 'Conviene cambiare fornitore energia anche con il Decreto Bollette 2026 in vigore?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Sì. Il Decreto Bollette 2026 riduce gli oneri di sistema di 3,4 €/MWh, ma questa riduzione è automatica e riguarda tutti. Il risparmio aggiuntivo che Enlil ottiene negoziando il prezzo dell'energia con oltre 50 fornitori (15-30% in media) si cumula con quello del decreto. Chi ha un contratto non ottimale — per esempio residuo di tutele graduali o rinnovo automatico — ha ancora più convenienza a cambiare fornitore ora.',
+        text: "Sì. Il Decreto Bollette 2026 riduce gli oneri di sistema di 3,4 €/MWh, ma questa riduzione è automatica e riguarda tutti. Il risparmio aggiuntivo che Enlil ottiene negoziando il prezzo dell'energia con oltre 50 fornitori (15-30% in media) si cumula con quello del decreto. Chi ha un contratto non ottimale — per esempio residuo di tutele graduali o rinnovo automatico — ha ancora più convenienza a cambiare fornitore ora.",
       },
     },
     {
@@ -297,7 +297,7 @@ const jsonLdHowTo = {
       '@type': 'HowToStep',
       position: 1,
       name: 'Analisi gratuita dei consumi',
-      text: 'Invia a Enlil le ultime bollette di luce e gas. In 48 ore ricevi un'analisi dettagliata con il risparmio stimato rispetto alle migliori offerte di mercato disponibili.',
+      text: "Invia a Enlil le ultime bollette di luce e gas. In 48 ore ricevi un'analisi dettagliata con il risparmio stimato rispetto alle migliori offerte di mercato disponibili.",
     },
     {
       '@type': 'HowToStep',
@@ -309,13 +309,13 @@ const jsonLdHowTo = {
       '@type': 'HowToStep',
       position: 3,
       name: 'Firma del nuovo contratto',
-      text: 'Una volta scelta l'offerta migliore, Enlil gestisce l'intera pratica contrattuale: sottoscrizione digitale, raccolta documenti e comunicazione al distributore. Nessuna burocrazia per l'azienda.',
+      text: "Una volta scelta l'offerta migliore, Enlil gestisce l'intera pratica contrattuale: sottoscrizione digitale, raccolta documenti e comunicazione al distributore. Nessuna burocrazia per l'azienda.",
     },
     {
       '@type': 'HowToStep',
       position: 4,
       name: 'Migrazione senza interruzioni',
-      text: 'Il passaggio al nuovo fornitore avviene automaticamente entro i tempi previsti dalla legge. La fornitura non viene mai interrotta. Enlil monitora l'intera migrazione fino all'attivazione confermata.',
+      text: "Il passaggio al nuovo fornitore avviene automaticamente entro i tempi previsti dalla legge. La fornitura non viene mai interrotta. Enlil monitora l'intera migrazione fino all'attivazione confermata.",
     },
   ],
 }
