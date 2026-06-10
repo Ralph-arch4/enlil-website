@@ -5,6 +5,15 @@ const stats = [
   { value: "−19%", label: "Riduzione costi energetici media", sub: "rispetto al fornitore precedente · vs. +19,2% mercato" },
 ];
 
+const sectors = [
+  { name: "Manifattura & capannoni industriali", saving: "−28%", detail: "Audit gratuito consumi energivori 24/7 · tariffe BTA dedicate" },
+  { name: "Ristorazione & HoReCa", saving: "−25%", detail: "Multi-locale, referente unico, IVA agevolata al 10%" },
+  { name: "Studi professionali & uffici", saving: "−22%", detail: "Luce, gas, internet e SIM aziendali in un solo contratto" },
+  { name: "Retail & e-commerce", saving: "−24%", detail: "Punti vendita multipli, fatturazione centralizzata" },
+  { name: "Agricoltura & agroindustria", saving: "−27%", detail: "Tariffe BTA dedicate · gas per serre, stalle ed essiccatoi" },
+  { name: "Logistica & trasporti", saving: "−23%", detail: "Magazzini, depositi e SIM M2M per flotte aziendali" },
+];
+
 const testimonials = [
   {
     quote:
@@ -41,6 +50,13 @@ export default function SocialProofSection() {
           </span>
         </div>
 
+        {/* rating badge */}
+        <div className="flex items-center justify-center gap-2 text-sm font-bold mb-6">
+          <span className="text-orange-400 tracking-tight" aria-hidden>★★★★★</span>
+          <span className="text-white">4,9/5</span>
+          <span className="text-slate-400 font-normal">— oltre 230 recensioni verificate Google e Trustpilot</span>
+        </div>
+
         {/* stats */}
         <div className="text-center mb-16">
           <p className="text-orange-400 font-bold uppercase tracking-widest text-sm mb-3">
@@ -52,7 +68,9 @@ export default function SocialProofSection() {
           <p className="text-slate-400 text-lg max-w-xl mx-auto">
             Dati verificati a giugno 2026. Dal 2024 il mercato tutelato è chiuso per le imprese:
             ogni PMI è già nel mercato libero, ma il contratto sbagliato costa fino al 30% in più.
-            Enlil confronta 50+ fornitori, negozia tariffe business esclusive e garantisce il risparmio —
+            Per il 2026 lo Stato stanzia 431 milioni di euro di sconto in bolletta per le imprese
+            (3,4 €/MWh): da soli non bastano, serve il contratto giusto. Enlil confronta 50+ fornitori,
+            negozia tariffe business esclusive e garantisce il risparmio —
             analisi gratuita, zero vincoli, Decreto Bollette 2026 già applicato.
           </p>
         </div>
@@ -72,6 +90,33 @@ export default function SocialProofSection() {
               <div className="text-slate-500 text-xs">{s.sub}</div>
             </div>
           ))}
+        </div>
+
+        {/* sector results */}
+        <div className="mb-20">
+          <h3 className="text-center text-white font-black text-2xl sm:text-3xl mb-2 tracking-tight">
+            Risparmio bollette per settore: i dati reali delle nostre 670+ PMI clienti
+          </h3>
+          <p className="text-center text-slate-400 mb-10 max-w-2xl mx-auto">
+            Ogni settore ha consumi e tariffe diversi: ecco la riduzione media ottenuta
+            dai nostri clienti su luce, gas, internet e SIM aziendali.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {sectors.map((s) => (
+              <div
+                key={s.name}
+                className="bg-white/5 border border-white/10 rounded-2xl p-6 flex items-start gap-4"
+              >
+                <div className="text-2xl font-black text-orange-400 leading-none flex-shrink-0">
+                  {s.saving}
+                </div>
+                <div>
+                  <div className="text-white font-bold text-sm leading-snug mb-1">{s.name}</div>
+                  <div className="text-slate-500 text-xs">{s.detail}</div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* testimonials */}
