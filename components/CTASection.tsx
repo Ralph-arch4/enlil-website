@@ -18,7 +18,7 @@ export default function CTASection() {
         {/* urgency badge */}
         <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-8">
           <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-          Decreto Bollette 2026 attivo · Risparmio fino a 3.400€/anno per PMI · Offerta chiude 15/06 — 10 giorni
+          Decreto Bollette 2026 attivo · Risparmio fino a 3.400€/anno per PMI · Solo 5 analisi gratuite disponibili questa settimana
         </div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 tracking-tight">
@@ -37,7 +37,7 @@ export default function CTASection() {
 
         {/* guarantee banner */}
         <div className="inline-block bg-white/15 border border-white/25 rounded-xl px-6 py-3 mb-8 text-white/95 text-sm font-semibold">
-          Garanzia Zero Rischi — se non troviamo almeno il 10% di risparmio, te lo diciamo subito e non spendi un euro.
+          Garanzia Zero Rischi — se non troviamo almeno il 10% di risparmio, te lo diciamo subito: zero costi, zero impegno, nessun contratto da firmare oggi.
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -45,7 +45,7 @@ export default function CTASection() {
             href="mailto:info@enlil.app?subject=Analisi%20gratuita%20bollette%20aziendali"
             className="inline-flex items-center justify-center gap-2 bg-white text-orange-600 font-black text-lg px-8 py-4 rounded-full transition-all hover:bg-orange-50 shadow-2xl shadow-black/20 hover:-translate-y-0.5"
           >
-            Scopri Quanto Risparmi Ora — Chiude il 15/06 →
+            Scopri Quanto Risparmi Ora — Posti Limitati →
           </a>
           <a
             href="tel:+390000000000"
@@ -54,6 +54,10 @@ export default function CTASection() {
             📞 Parla con un Esperto · Risponde in 60 sec
           </a>
         </div>
+
+        <p className="text-white/70 text-sm mb-8">
+          Bastano 2 bollette in PDF — nessuna firma, nessun impegno, puoi fermarti quando vuoi.
+        </p>
 
         {/* trust signals */}
         <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm font-medium">
